@@ -21,6 +21,66 @@
 
 
 
+#-------- Types of Varible 
+
+#------ Instance Variable
+
+
+# class Car:
+#     def __init__(self, color, brand):
+#         self.color = color                               # Instance variable
+#         self.brand = brand                               # Instance variable
+
+# c1 = Car("Red", "BMW")
+# c2 = Car("Blue", "Audi")
+
+# print(c1.color)  
+# print(c2.color)  
+
+
+
+
+
+#------ class Variable
+
+# class Car:
+#     wheels = 4                                  # Class variable (shared by all cars)
+
+#     def __init__(self, color):
+#         self.color = color                      # Instance variable
+
+# c1 = Car("Red")
+# c2 = Car("Blue")
+
+# print(c1.wheels)  
+# print(c2.wheels)  
+
+# Car.wheels = 6  
+# print(c1.wheels) 
+
+
+
+
+#-------- Global Variable
+
+
+# x = 100                                         # Global variable
+
+# def demo():
+#     global x
+#     x = x + 50
+#     print("Inside:", x)
+
+# demo()
+# print("Outside:", x)
+
+
+
+
+
+
+
+
 
 #------- Methods in Class
 
