@@ -27,3 +27,51 @@
 # book2 = Book(250)
     
 # print(book1 + book2)
+
+
+
+
+
+
+#-------- Method Overriding
+
+
+# class Animal:
+#     def sound(self):
+#         print("Animal Sounds")
+
+# class Dog(Animal):
+#     def sound(self):
+#         print("Bark")
+
+# class Cat(Animal):
+#     def sound(self):
+#         print("Meow")
+    
+# animals = [Dog(), Cat(), Animal()]
+# for a in animals:
+#     a.sound()
+
+
+
+
+
+#------- Built-in (Duck Typing)
+
+
+# class Dog:
+#     def sound(self):
+#         return "Bark"
+
+# class Cat:
+#     def sound(self):
+#         return "Moew"
+
+# def make_sound(animal):
+#     print(animal.sound())
+
+# dog = Dog()
+# cat = Cat()
+
+# make_sound(dog)
+# make_sound(cat)
