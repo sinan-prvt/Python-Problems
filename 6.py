@@ -74,5 +74,37 @@
 #----- reverse String
 
 
-def decorator(func):
-    def wrapper()
+# def decorator(func):
+#     def wrapper(*args, **kwargs):
+#         result = func(*args, **kwargs)
+#         return result[::-1]
+#     return wrapper
+# @decorator
+# def greet(name):
+#     return name
+# print(greet("Sinan"))
+
+
+
+
+#----- Check Palindrome
+
+
+# def decorator(func):
+#     def wrapper(*args, **kwargs):
+#         result = func(*args, **kwargs)
+#         if result == result[::-1]:
+#             print(f"{result} is a palindrome")
+#         else:
+#             print(f"{result} is not a palindrome")
+#         return result
+#     return wrapper
+# @decorator
+# def check(word):
+#     return word
+# check("madam")
+# check("Sir")
+# check("malayalam")
+
+
+
