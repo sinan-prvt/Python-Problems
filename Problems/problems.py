@@ -31,9 +31,9 @@
 # li = []
 # for i in word:
 #     if i in vowels:
-#         print("*")
+#         li.append("*")
 #     else:
-#         print(i)
+#         li.append(i)
 # print(" ".join(li))
 
 
