@@ -46,8 +46,8 @@
 # class Car:
 #     wheels = 4                                  # Class variable (shared by all cars)
 
-#     def __init__(self, color):
-#         self.color = color                      # Instance variable
+# def __init__(self, color):
+#    self.color = color                           # Instance variable
 
 # c1 = Car("Red")
 # c2 = Car("Blue")

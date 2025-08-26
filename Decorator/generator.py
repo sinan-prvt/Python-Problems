@@ -15,11 +15,11 @@
 
 #-------------------------
 
-def Counter():
-    n = 1
-    while True:
-        yield n
-        n += 1
-gen = Counter()
-for i in range(5):
-    print(next(gen))
+# def Counter():
+#     n = 1
+#     while True:
+#         yield n
+#         n += 1
+# gen = Counter()
+# for i in range(5):
+#     print(next(gen))

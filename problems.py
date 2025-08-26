@@ -23,6 +23,19 @@
 
 
 
+#------ Vowels with *
+
+
+# word = "Mohamed Sinan"
+# vowels = "aeiouAEIOU"
+# li = []
+# for i in word:
+#     if i in vowels:
+#         print("*")
+#     else:
+#         print(i)
+# print(" ".join(li), end="")
+
 
 
 #------  Check if number is even or odd
@@ -307,6 +320,8 @@
 #     print("Founded")
 # else:
 #     print("Not Founded")
+
+
 
 
 
