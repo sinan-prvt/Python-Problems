@@ -4,7 +4,9 @@
 #============ Function Argument Types 
 
 
+
 #----- default argument
+
 
 # def greet(name="User"):
 #     print(f"Hello, {name}")
@@ -24,6 +26,7 @@
 
 #----- Positional Argument
 
+
 # def greet(name, age):
 #     print(f"{name} is {age} years old")
 # greet("sinan", 19)
@@ -31,6 +34,7 @@
 
 
 #----- Variable-Length Argument
+
 
 # def add(*args):
 #     return sum(args)
@@ -52,6 +56,7 @@
 
 
 #--------Without Argument & Without Return value
+
 
 # def greet():
 #     print("Hello")

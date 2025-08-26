@@ -3,6 +3,7 @@
 
 #------- ZeroDivisionError
 
+
 # try:                                                      # Basic Example
 #     result = 10 / 0
 # except ZeroDivisionError:

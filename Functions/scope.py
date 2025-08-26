@@ -1,5 +1,7 @@
 #------ Variable Scope    
 
+
+
 # def greet() :
 #     name = "Sinan"                     # Local VAriable      
 #     print("Hello", name)
