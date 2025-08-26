@@ -34,7 +34,7 @@
 #         print("*")
 #     else:
 #         print(i)
-# print(" ".join(li), end="")
+# print(" ".join(li))
 
 
 
