@@ -18,13 +18,26 @@
 # n.pop()                                          #  Remove last item 
 # print(n)
 
+# n.pop(2)                                          #  Removing using index
+# print(n)
+
 # n.sort()                                          #  Sorting items
+# print(n)
+
+# n.sort(reverse=True)                              #  Sorting in Reverse
+# print(n)
+
+# n.sorted()                                        #  return new sorted list without modifying new
 # print(n)
 
 # n.reverse()                                        #  Reversing items
 # print(n)
 
 # print(len(n))                                       #  Length of items
+
+# print(n.index("mango"))                             #  index number print
+
+# print(n.index("apple"))                             #  Count how may items 
 
 # for item in n :                                      #  Looping
 #     print(item)
