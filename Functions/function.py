@@ -55,7 +55,7 @@
 #============= Function Types Based on Argument & return value
 
 
-#--------Without Argument & Without Return value
+#-------- Without Argument & Without Return value
 
 
 # def greet():
@@ -75,7 +75,7 @@
 
 
 
-# Without Argument but With return value
+# ------- Without Argument but With return value
 
 
 # def PI_value():
@@ -85,9 +85,13 @@
 
 
 
-# With Argument & With Return Value
+# ------- With Argument & With Return Value
 
 
 # def greet(name,age):
 #     print(f"{name} is {age} years old")
 # greet("sinan",19)
+
+
+
+
