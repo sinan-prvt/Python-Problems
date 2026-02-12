@@ -1,4 +1,4 @@
-#----- Reverse "hello" without slicing
+# ----- Reverse "hello" without slicing
 
 
 # n = "hello"
@@ -10,7 +10,7 @@
 
 
 
-#----- Count vowels in "programming"
+# ----- Count vowels in "programming"
 
 
 # n = "programming"
@@ -23,7 +23,7 @@
 
 
 
-#------ Vowels with *
+# ------ Vowels with *
 
 
 # word = "Mohamed Sinan"
@@ -38,7 +38,23 @@
 
 
 
-#------  Check if number is even or odd
+# def decorator(func):
+#     def wrapper(text):
+#         vowels = "AEIOUaeiou"
+#         count = 0
+#         for ch in text:
+#             if ch in vowels:
+#                 count += 1
+#         print("Vowels Count: ", count)
+#     return wrapper
+
+# @decorator
+# def show(word):
+#     return word
+# show("Sinan")
+
+
+# ------  Check if number is even or odd
 
 
 # n = 94
@@ -51,7 +67,7 @@
 
 
 
-#----- Find sum of [1,2,3,4] without sum()
+# ----- Find sum of [1,2,3,4] without sum()
 
 
 # n = [1,2,3,4]
@@ -63,7 +79,7 @@
 
 
 
-#----- Print 1–20, skip multiples of 3, stop if number is 15.
+# ----- Print 1–20, skip multiples of 3, stop if number is 15.
 
 
 # for i in range(1,21):
@@ -74,7 +90,7 @@
 # print(i, end=" ")
 
 
-#----- Access Nested Dictionary
+# ----- Access Nested Dictionary
 
 
 # students = {
@@ -90,7 +106,7 @@
 
 
 
-#-----Count letters in word
+# -----Count letters in word
 
 
 # n = "sinan"
@@ -112,7 +128,7 @@
 
 
 
-#----Count words in sentence
+# ----Count words in sentence
 
 
 # n = "Hi My Name Is Sinan And Your Name Also Sinan"
@@ -126,7 +142,7 @@
 
 
 
-#-----convert list into dict with even and odd
+# -----convert list into dict with even and odd
 
 
 # n = [1,2,3,4,5,6,7,8,9]
@@ -142,7 +158,7 @@
 
 
 
-#-------Find Largest Number
+# -------Find Largest Number
 
 # n = [3,4,6,8,9]
 # largest = num[0]
@@ -153,7 +169,7 @@
 
 
 
-#------ Find Smallest Number
+# ------ Find Smallest Number
 
 # num = [1,2,3,4,5,6]
 # smallest = num[0]
@@ -164,7 +180,7 @@
 
 
 
-#------- Find Second Largest Number
+# ------- Find Second Largest Number
 
 
 # num = [2,3,5,7,8]
@@ -175,7 +191,7 @@
 
 
 
-#------ Check if "madam" is palindrome.
+# ------ Check if "madam" is palindrome.
 
 
 # n = "madam"
@@ -188,7 +204,7 @@
 
 
 
-#-------Factorial using Loop
+# -------Factorial using Loop
 
 
 # num = 5
@@ -201,7 +217,7 @@
 
 
 
-#-------- Prime Number 
+# -------- Prime Number 
 
 
 # for num in range(2,51):
@@ -216,7 +232,7 @@
 
 
 
-#---------- Fibnocci Series
+# ---------- Fibnocci Series
 
 
 # a, b = 0, 1
@@ -226,7 +242,7 @@
 
 
 
-#-------- Count Digits 
+# -------- Count Digits 
 
 # num = 123456
 # count = 0
@@ -242,7 +258,7 @@
 
 
 
-#------- Remove Duplicates
+# ------- Remove Duplicates
 
 
 # num = [1,2,2,3,3,4,4,5,5,3,2,2,1]
@@ -256,7 +272,7 @@
 
 
 
-#------------ Reverse Word In String
+# ------------ Reverse Word In String
 
 
 # s = "Hello My Name Sinan"
@@ -269,7 +285,7 @@
 
 
 
-#-------------- Arm Strong Numbers
+# -------------- Arm Strong Numbers
 
 
 # num = 153
@@ -285,7 +301,7 @@
 
 
 
-#-------------  Multiple Table 
+# -------------  Multiple Table 
 
 
 # num = 4
@@ -297,7 +313,7 @@
 
 
 
-#------------- Anagram Check
+# ------------- Anagram Check
 
 
 # s1 = "silent"
@@ -311,7 +327,7 @@
 
 
 
-#------------ Substring Check
+# ------------ Substring Check
 
 
 # s = "Sinan"
