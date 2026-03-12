@@ -117,6 +117,3 @@
     
 # print(positive)
 
-
-
-# ================== Find Common Elements
